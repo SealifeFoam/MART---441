@@ -1,0 +1,17 @@
+body{
+    font-family:monospace;
+    
+}
+
+
+@font-face {
+font-family: "Game On";
+src: url("C:/Users/Seali/Documents/GitHub/MART - 441/Week1/fonts/Game On_PersonalUseOnly.ttf");  
+}
+
+h2, h1 { 
+    font-family: "Game On", serif;
+    
+}
+
+
