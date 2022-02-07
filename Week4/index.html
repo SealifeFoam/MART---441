@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+        <title>Hw4</title>
+
+        <script>
+            // I am defining my method here
+            function whatToDo(temperature)
+            {
+                switch(temperature)
+                {
+                    case 0:
+                        document.write("Yikes! It's cold!");
+                        break;
+                    case 10:
+                        document.write("It's still pretty cold");
+                        break;
+                    case 20:
+                        document.write("We are tough in Montana, it's not that bad.");
+                        break;
+                    case 30:
+                        document.write("Break out the t-shirts and shorts!");
+                        break;
+                }
+            
+            }
+        </script>
+    
+         
+</head>
+<body>
+
+<script>
+            // I created a variable here
+            var temperature = 30;
+
+            whatToDo(temperature); // remember I am calling my method here
+        </script>
+</body>
+
+</html>
