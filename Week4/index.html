@@ -9,40 +9,79 @@
     <script src="main.js"></script>
 
         <title>Hw4</title>
-
-        <script>
-            // I am defining my method here
-            function whatToDo(temperature)
-            {
-                switch(temperature)
-                {
-                    case 0:
-                        document.write("Yikes! It's cold!");
-                        break;
-                    case 10:
-                        document.write("It's still pretty cold");
-                        break;
-                    case 20:
-                        document.write("We are tough in Montana, it's not that bad.");
-                        break;
-                    case 30:
-                        document.write("Break out the t-shirts and shorts!");
-                        break;
-                }
-            
-            }
-        </script>
     
          
 </head>
+
 <body>
 
-<script>
-            // I created a variable here
-            var temperature = 30;
+    <h1></h1> <!-- Type and Story-->
+    <br>
+    <img src="./Images/Open.gif" id="mainImage">
+<div id="question">
+<br>
+     
+    Its late because it is nearly 2am and you are tired. Your professsor gave you an assignment where you have not fullly understand the concepts he taught you. So you decided to take a step away from your computer and go to your local coffee shop. Stepping inside the cafe, you approuch the counter and the Birista looks up from the wipping up some stains. 
+     "Hello, welcome to the MidnightBean what can I get you?" 
+    <br>
+    You Choose Tea (T) or Coffee (C)? 
+    <br>
+    
+</div> 
+<br>
+<input type="text" size="30" id="choice" value="Please enter T or C"> <!--Coffee or Tea-->
+<button id="btnSubmit" onclick="getChoice1();">Click to continue</button> 
 
-            whatToDo(temperature); // remember I am calling my method here
-        </script>
+<input type="text" size="30" id="choice2" value="A or B" style="display:none"> <!--Passion or Earl Grey -->
+<button id="btnSubmit2" onclick="getChoice2();"  style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice3" value="Hot or Cold"  style="display:none"><!--Hot or Cold Coffee-->
+<button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice4" value="Hot or Cold" style="display:none"> <!--Hot or Cold Tea-->
+<button id="btnSubmit4" onclick="getChoice4();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice5" value="Medium or Large" style="display:none"> <!--M or L Hot Coffee-->
+<button id="btnSubmit5" onclick="getChoice5();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice6" value="Yes or No" style="display:none"> <!--LF Y or N?-->
+<button id="btnSubmit6" onclick="getChoice6();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice7" value="Medium or Large" style="display:none"> <!--M or L Cold Coffee-->
+<button id="btnSubmit7" onclick="getChoice7();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice8" value="Medium or Large" style="display:none"> <!--M or L Hot Passon Tea-->
+<button id="btnSubmit8" onclick="getChoice8();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice9" value="Yes or No?" style="display:none"> <!--Tip for Med. Hot coffee?-->
+<button id="btnSubmit9" onclick="getChoice9();" style="display:none">Click to continue</button> 
+
+<input type="text" size="30" id="choice10" value="Medium or Large" style="display:none"> <!--M or L Cold Passon Tea-->
+<button id="btnSubmit10" onclick="getChoice10();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="theSugarLoop" value=" 1 or 2" style="display:none"> <!--Add Sugar-->
+<button id="theSugarLoop" onclick="theSugarLoop();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice12" value="Yes or No" style="display:none"> <!--Tip for Passon Tea-->
+<button id="btnSubmit12" onclick="getChoice12();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice13" value="Yes or No?" style="display:none">  <!--Tip for Med. Cold Coffee?-->
+<button id="btnSubmit13" onclick="getChoice13();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice14" value="Yes or No" style="display:none"> <!--Tip for LondonFog-->  
+<button id="btnSubmit14" onclick="getChoice14();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice15" value="Yes or No?" style="display:none"> <!--Tip for Large Cold Coffee?-->
+<button id="btnSubmit15" onclick="getChoice15();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice16" value="Medium or Large" style="display:none"> <!--M or L London Fog-->
+<button id="btnSubmit16" onclick="getChoice16();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice17" value="Yes or No?" style="display:none"> <!--End after Choice11-->
+<button id="btnSubmit17" onclick="getChoice17();" style="display:none">Click to continue</button>
+
+<input type="text" size="30" id="choice18" value="Medium or Large" style="display:none"> <!--M or L Earl Fog -->
+<button id="btnSubmit18" onclick="getChoice18();" style="display:none">Click to continue</button>
 </body>
 
 </html>
