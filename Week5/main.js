@@ -2,7 +2,7 @@
 var imageTags = ["image1", "image2", "image3", "image4","image5", "image6", "image7", "image8", "image9", "image10" ];
 
 // Top/Blank Image- don't memory games usually have some sort of design on them though? 
-var blankImagePath = "images/gofish.jpg";
+var blankImagePath = "Images/gofish.jpg";
 
 //Array for the matching images
 var actualImages = new Array();
@@ -24,7 +24,7 @@ function printBlanks()
 function createRandomImageArray()
 {
     
-    var actualImagePath = ["images/dog.jpg","images/tiger.jpg","images/Bird.png","images/raccoon.jpg","images/rabbit.jpg"];
+    var actualImagePath = ["Images/dog.jpg","Images/tiger.jpg","Images/Bird.png","Images/raccoon.jpg","Images/rabbit.jpg"];
     // create another array to make sure the images only get added twice
     var count = [0,0];
     // create a while statement to check to see if our actual image array is full
