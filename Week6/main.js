@@ -1,5 +1,5 @@
 // create an array of image names that correspond to the image tags
-var imageTags = ["image1", "image2", "image3", "image4" ];
+var imageTags = ["image1", "image2", "image3", "image4","image5", "image6", "image7", "image8", "image9", "image10" ];
 
 // Top/Blank Image- don't memory games usually have some sort of design on them though? 
 var blankImagePath = "Images/gofish.jpg";
@@ -34,10 +34,10 @@ function printBlanks()
 function createRandomImageArray()
 {
     
-    var actualImagePath = ["Images/dog.jpg","Images/tiger.jpg"];
-    var count = [0,0];
+    var actualImagePath = ["Images/dog.jpg","Images/tiger.jpg","Images/bird.jpg","Images/raccoon.jpg","Images/rabbit.jpg" ];
+    var count = [0,0,0,0,0];
    
-    while(actualImages.length < 4)
+    while(actualImages.length < 10)
     {
         
         var randomNumber = Math.floor(Math.random() * actualImagePath.length)
