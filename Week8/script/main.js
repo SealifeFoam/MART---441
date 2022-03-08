@@ -33,13 +33,6 @@ function initializeArray()
 
 
 $(document).ready(function(){
-    initializeArray();
-    console.log(allAlice.length);
-    console.log(allAlice[0].toString());
-    console.log(allAlice[0].theSelector);
-    console.log(allAlice[0].theImagePath);
-    
-    
    $("button").click(function(){
     $("#Alice").fadeIn();
    })
