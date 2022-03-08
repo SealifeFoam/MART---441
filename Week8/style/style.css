@@ -1,0 +1,24 @@
+body {
+    
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    background-image: url("C:/Users/Seali/Documents/GitHub/MART - 441/Week8/images/BG-8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button{
+    align-items: center;
+    margin-left: 45%;
+    height: 25pt;
+    width: 80pt;
+}

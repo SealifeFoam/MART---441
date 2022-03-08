@@ -71,20 +71,20 @@ class ViewFinder
 
 }
 
-//function is called in the body of the HTML page so that the objects are created and added to the array myViewFinderArray
+
 
 function initializeArray()
 {
-   //first object in class ViewFinder - find images 
-   var myViewFinder = new ViewFinder("Sitges, Spain", "This is one of Europes top LGBT travel destinations and its not hard to see why! Around an hour outside of Barcelona, Sitges is a beautiful destination full of pristine beaches, cobbled streets lined with quaint cafes and bars, and a large gay community.", "","", "url(Images/Spain)")
+   //first object in class ViewFinder 
+   var myViewFinder = new ViewFinder("Sitges, Spain", "This is one of Europes top LGBT travel destinations and its not hard to see why! Around an hour outside of Barcelona, Sitges is a beautiful destination full of pristine beaches, cobbled streets lined with quaint cafes and bars, and a large gay community.", "Unknown","Not defined", "(Week7/Images/Spain.jpg)")
    //Second object in class ViewFinder - Make sure to add number to remaining 3 objects
-   var myViewFinder1 = new ViewFinder("Vancouver, Canada", " Vancouver is a great cosmopolitan city set amongst a backdrop of jagged, snowy mountains and has a bustling LGBT scene with everything from gay shops, hotels, bars, clubs and restaurants to choose from.", "", "")
+   var myViewFinder1 = new ViewFinder("Vancouver, Canada", " Vancouver is a great cosmopolitan city set amongst a backdrop of jagged, snowy mountains and has a bustling LGBT scene with everything from gay shops, hotels, bars, clubs and restaurants to choose from.", "Unknown", "Not defined","(Week7/Images/vancouver.jpg)")
     //Third object in class ViewFinder
-    var myViewFinder2 = new ViewFinder("Mykonos, Greece", "Mykonos is known as the LGBT hub of Greece and is perfect for the traveller who longs for stunning landscapes, beautiful beaches, traditional little villages and a good gay scene.", "", "" )
+    var myViewFinder2 = new ViewFinder("Mykonos, Greece", "Mykonos is known as the LGBT hub of Greece and is perfect for the traveller who longs for stunning landscapes, beautiful beaches, traditional little villages and a good gay scene.", "Unknown", "Not defined", "(Week7/Images/mykonos.jpg)")
     //Fourth object in class ViewFinder
-    var myViewFinder3 = new ViewFinder("Palm Springs, USA", "Palm Springs is home to the largest collection of men and women only accommodations in the world and is home to the biggest lesbian party in the world, Dinah. ", "",)
+    var myViewFinder3 = new ViewFinder("Palm Springs, USA", "Palm Springs is home to the largest collection of men and women only accommodations in the world and is home to the biggest lesbian party in the world, Dinah. ", "Unknown","Not defined","(Week7/Images/Miami-Beach.jpg)")
     //Fifth object in class ViewFinder
-    var myViewFinder4 = new ViewFinder("French Polynesia", "In French Polynesia, no laws against same-sex sexual activity have ever existed in the collectivity and LGBT travelers are afforded all the same rights as heterosexual people.", "", )
+    var myViewFinder4 = new ViewFinder("French Polynesia", "In French Polynesia, no laws against same-sex sexual activity have ever existed in the collectivity and LGBT travelers are afforded all the same rights as heterosexual people.", "Unknown","Not defined","(Week7/Image/FrenchPoly.jpg)" )
    
     //add objects to array 
     myViewFinderArray.push(myViewFinder); 
