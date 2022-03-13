@@ -15,8 +15,8 @@ $(document).ready(function(){
   
   
        $("#buttonSmile").click(function(){
-      $(".dot").slideToggle().animate({left:500}).slideToggle().animate({right:500});
-      
-  
+      $(".dot").slideToggle().animate({left:1200}).slideToggle();
+      $(".dotb").slideToggle().animate({left:1200}).slideToggle();
+      $(".dotc").slideToggle().animate({left:1200}).slideToggle();
     });
   });

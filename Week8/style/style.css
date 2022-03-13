@@ -98,7 +98,7 @@ button{
 }
 
 button:hover{
-    background-image: url('C:/Users/Seali/Documents/GitHub/MART - 441/Week8/images/smile-8.png');
+    background-image: url("C:/Users/Seali/Documents/GitHub/MART - 441/Week8/images/smile-8.png");
     background-repeat:repeat;
     background-size: 24pt;
     align-items:stretch;
@@ -130,6 +130,31 @@ button:hover{
   }
 
 
+  .dotb {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: rgb(255, 0, 221);
+    position:relative;
+    margin-top: 15%;
+    display: none;
+  }
 
+
+  .dotc {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: rgb(255, 0, 221);
+    position:relative;
+    margin-top: 15%;
+    display: none;
+  }
+
+
+a {
+    color:rgb(255, 0, 221);
+    text-decoration-skip:unset;
+}
 
   
