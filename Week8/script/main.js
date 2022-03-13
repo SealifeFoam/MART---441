@@ -1,44 +1,22 @@
-var Alice1 = "#Alice";
-var Alice = new Array();
-
-class AliceInfo{
-    constructor(selector, imagePath)
-    {
-        this.selector = selector;
-        this.imagePath = imagePath;
-    }
-
-    get theSelector(){
-        return this.selector;
-    }
-
-    get theImagePath(){
-        return this.imagePath;
-    }
-
-    toString()
-    {
-        return this.selector + ":" + this.imagePath; 
-    }
-}
-
-function initializeArray()
-{
-
-    var Alice = new AliceInfo("#Alice", "./images/Alice-8.png");
-    allAlice.push(Alice);
-
-}
-
-
-
 $(document).ready(function(){
-   $("button").click(function(){
-    $("#Alice").fadeIn();
-   })
-    
-});
-
-
-
-
+    $("#button1").click(function(){
+      $("#button1").fadeOut();
+      $("#Alice1").fadeIn();
+      $("#button2").fadeIn();
+        
+    });
+  
+    $("#button2").click(function(){
+       $(".container").fadeOut();
+       $(".container2").fadeIn().animate({left:450},'slow');
+      $(".container3").fadeIn();
+      $("#buttonSmile").slideUp().slideDown().slideUp().slideDown();   
+      })
+  
+  
+       $("#buttonSmile").click(function(){
+      $(".dot").slideToggle().animate({left:500}).slideToggle().animate({right:500});
+      
+  
+    });
+  });

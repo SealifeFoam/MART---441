@@ -10,8 +10,38 @@ Look for Font
 3/8/2022 
 
 Need to 
--Make Alice appear at first click
--Change scene at second click 
+-Make Alice appear at first click : Check
+-Change scene at second click : Check
     - Imagery will change 
-    - color will change 
--Words will appear at third click
+    
+-Shape will appear at third click : 
+
+
+Teachers Sugguestion - *Update : won't connect with code
+$(document).ready(function () {
+
+      $("button1").click(function () {
+        $("#Goodbye").fadeOut(fadeInAlice); // use callbacks instead
+
+      });
+
+      function fadeInAlice() {
+        $("#Alice1").fadeIn(fadeInButton);
+      }
+
+      function fadeInButton() {
+        $("#button2").fadeIn();
+      }
+      $("#button2").click(function () {
+        $(".container").fadeOut(addAndAnimate);
+
+      });
+
+      function addAndAnimate() {
+        $(".square").add();
+        $(".container2").fadeIn().animate({
+          left: 200
+        });
+      }
+
+    });

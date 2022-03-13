@@ -3,6 +3,26 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+#p1 {
+    color: rgb(255, 35, 226);
+    font-family: 'Are You Serious', cursive;
+    font-size: 25pt;
+    
+}
+
+#p2{
+    color: rgb(131, 210, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#p3 {
+    color: rgb(255, 35, 226) ;
+    font-family: 'Are You Serious', cursive;
+    font-size: 25pt;
+    
+}
+
 .container{
     background-image: url("C:/Users/Seali/Documents/GitHub/MART - 441/Week8/images/BG-8.png");
     background-repeat: no-repeat;
@@ -16,9 +36,99 @@ body {
     border: 1px solid rgb(0, 0, 0);
 }
 
-button{
+.container2{
+    display:none;
+    width: 550px;
+    height:450px;
+    margin:auto;
+    position: fixed;
+    
+    
+}
+
+.container3{
+    width: 500px;
+    height:40px;
+    margin:auto;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 5%; 
+}
+
+
+#button1{
     align-items: center;
     margin-left: 45%;
     height: 25pt;
     width: 80pt;
+    font-family: 'Are You Serious', cursive;
+    color:whitesmoke;
+    font-size: larger;
+    background-color: black;
 }
+
+#button2{
+    
+    margin-left: 55%;
+    margin-bottom: 15%;
+    height: 25pt;
+    width: 80pt;
+    font-family: 'Are You Serious', cursive;
+    font-size: larger;
+    display:none;
+}
+
+#buttonSmile{
+    margin-left: 155%;
+    height: 45pt;
+    width: 75pt;
+    background-color: black;
+    border-color: darkmagenta;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+button{
+        width: 80px;
+        height: 25px;
+        border: 0;
+        cursor: pointer;      
+
+}
+
+button:hover{
+    background-image: url('C:/Users/Seali/Documents/GitHub/MART - 441/Week8/images/smile-8.png');
+    background-repeat:repeat;
+    background-size: 24pt;
+    align-items:stretch;
+    
+}
+
+
+
+#Alice1{
+    margin-top: .05%;
+    margin-left: 25%;
+    width:155px;
+    height:300px;
+    display:none;
+    position:static;
+    
+}
+
+
+.dot {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: rgb(255, 0, 221);
+    position:relative;
+    right: 0;
+    bottom: 500;
+    display: none;
+  }
+
+
+
+
+  
