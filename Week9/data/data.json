@@ -1,0 +1,15 @@
+{
+    "Drinks" : ["Tea", "Coffee"],
+
+    "Orders" : ["1", "2", "3"],
+
+    "Cusomers" : {
+        "firstName" : ["Robert", "Frank", "Susan"],
+        "lastName" : ["James", "Phils", "Mikes" ]
+    },
+    "Sizes" : [
+        "small",
+        "medium",
+        "large"
+    ]
+}
