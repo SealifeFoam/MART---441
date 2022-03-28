@@ -8,11 +8,14 @@
 	user-select: none;
 }
 
+::selection {
+	background: #cbf3b4;
+}
 
 
 
 body {
-	background: rgb(214, 255, 191);
+	background: #fff;
 	color: #222;
 	cursor: default;
 	display: flex;
@@ -23,9 +26,11 @@ body {
 	margin: 4em auto;
 	max-width: calc(100% - 2em);
 	min-height: calc(100vh - 8em);
-	text-transform: lowercase;
 	width: 30em;
 }
+
+
+
 
 
 

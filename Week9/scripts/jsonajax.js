@@ -2,7 +2,10 @@ $(document).ready(function () {
     $("button").click(function () {
         $("#cafeInformation").load("data/data.json", function(responseText){
             var cafe = JSON.parse(responseText);
-            $("#cafeInformation").html(`Drinks: ${cafe.drinks}<br>order:${cafe.orders}<br>First Name:${cafe.cusomers.firstName}<br>Last Name:${cafe.cusomers.lastName}<br>Sizes Available:<br>${cafe.sizes[0]}<br>${cafe.sizes[1]}<br>${cafe.sizes[2]}`);
+            $("#cafeInformation").html("Drinks: " + cafe.Drinks 
+        + "<br>order:" + cafe.Orders + "<br>First Name:" + cafe.Cusomers.firstName + "<br>Last Name:" 
+        + cafe.Cusomers.lastName + "<br>Sizes Available:<br>" +
+        cafe.Sizes[0] + "<br>" + cafe.Sizes[1] + "<br>" + cafe.Sizes[2]);
         });
     });
 });
