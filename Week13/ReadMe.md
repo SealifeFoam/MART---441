@@ -6,7 +6,7 @@ Change the gravity of the stars.[check]
 
 Change the gravity, so each star has gravity.[]
 
-Use different sprites for the player - look in the assets folder.[] 
+Use different sprites for the player - look in the assets folder.[check] 
 -where could I get usable sprite sheets? 
 
 Why not add some spikes you must avoid? You could create a new ‘spikes’ group and check for collision vs. the player, only instead of killing the spike sprite you kill the player instead. []
