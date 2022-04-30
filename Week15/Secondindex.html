@@ -1,0 +1,34 @@
+<html>
+   <head>
+      <title>Node.js</title>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+      </style>
+<link rel="stylesheet" href="Style/style2.css" text="text/css">
+
+      <script>
+         function refreshPage()
+         {
+            const params = new URLSearchParams(window.location.search)
+            var fName = params.get("Name");
+            var cSize = params.get("CoffeSize");
+            var Bname = params.get("BeverageName")
+            var refresh = params.has("norefresh");
+            if(!refresh)
+            {
+               window.location = "Secondindex.html?Name=" + fName + "&BeverageName=" + Bname + "&CoffeeSize=" + cSize + "&norefresh=1";
+            }
+            
+         }
+      </script>
+   </head>
+   
+   <body onload="refreshPage();">
+     <div class="container"><h1>
+       Thank you for your Purchase 
+     </h1>
+</div>
+<img src="https://giphy.com/embed/ensk0C4ba77m8KBWoA" >
+     
+   </body>
+</html>

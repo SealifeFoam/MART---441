@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(235, 105, 76);
+ }
+
+ .container{
+    background-color: rgb(169, 62, 62);
+    text-align: center;
+    width: 500px;
+    font-size: xx-large;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+
+h1 {
+    align-items: center;
+    font-family: 'Water Brush', cursive;
+    margin:auto;
+    margin-top: 30%;
+    position: relative;
+    z-index: 1;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left:0px;
+    margin-top: -5%;
+    margin-bottom: 0%;
+    margin-right: 25px;
+    
+}
