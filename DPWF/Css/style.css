@@ -1,0 +1,18 @@
+.container{
+    background-position: 40%;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    
+    font-family:monospace;
+}
+
+h3{
+    text-align: center;
+}
+
+
+

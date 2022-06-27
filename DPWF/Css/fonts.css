@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Anders";
+    src: url("./Anders.ttf");  
+    }
+
+    h1 {
+        font-family: "Anders", serif;
+        position: relative;
+        text-align: center;
+    }
