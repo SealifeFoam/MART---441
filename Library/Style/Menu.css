@@ -1,0 +1,60 @@
+
+
+  body {
+    background-color: #AD6A6C;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  /* Container needed to position the button. Adjust the width as needed */
+.container {
+  position:relative;
+  margin-top: 5%;
+  width: 20%;
+  
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+  mix-blend-mode:multiply;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  font-family: 'Fuzzy Bubbles', cursive;
+  position: absolute;
+  top: 30%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: rgb(245, 129, 228);
+}
+
+
+
+h1 {
+  font-family: 'Fuzzy Bubbles', cursive;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  
+}
+
+

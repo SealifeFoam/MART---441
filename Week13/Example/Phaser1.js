@@ -33,7 +33,7 @@ function preload()//will load all assets on the page
     this.load.image('ground', './assets/platform.png');
     this.load.image('star', './assets/star.png');
     this.load.image('bomb', './assets/bomb.png');
-    this.load.spritesheet('dude', './assets/dude.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.spritesheet('dude', './assets/Kirby.png', { frameWidth: 32, frameHeight: 48 });
 }
 
 function create()//will set up the page 
@@ -49,14 +49,14 @@ function create()//will set up the page
  platforms.create(750, 220, 'ground');
 
  //Player and settings
- player = this.physics.add.sprite(100, 450, 'dude'); //(positionx, positiony, 'sheet')
+ player = this.physics.add.sprite(100, 450, 'Kirby'); //(positionx, positiony, 'sheet')
 
  player.setBounce(0.2);
  player.setCollideWorldBounds(true);
 
  this.anims.create({
      key: 'left', //calls frame number when key is pressed 
-     frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 3 }),
+     frames: this.anims.generateFrameNumbers('Kibry', { start: 0, end: 3 }),
      frameRate: 10, 
      repeat: -1
  });

@@ -73,7 +73,7 @@ function create ()
     //  Our player sprite animation
     this.anims.create({
         key: 'left',
-        frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 3 }),
+        frames: this.anims.generateFrameNumbers('Kirby', { start: 3, end: 12 }),
         frameRate: 10,
         repeat: -1
     });
